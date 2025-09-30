@@ -1,119 +1,60 @@
-[![made With](https://img.shields.io/badge/Made%20with-Python%20-8A2BE2)](https://github.com/alanmugiwara)
-![Created](https://img.shields.io/badge/Created-Jul%202,%202025-8A2BE2)
-[![Last Commit](https://img.shields.io/github/last-commit/teamgitai/faltei-lascaux/?color=8A2BE2&label=Last%20Commit)](https://github.com/alanmugiwara/alanmugiwara)
-[![contributors](https://img.shields.io/github/contributors/teamgitai/faltei-lascaux/?color=8A2BE2&label=Contributors)](https://github.com/alanmugiwara)
-[![issues counter](https://img.shields.io/github/issues/alanmugiwara/pypdfsawtext?color=8A2BE2&label=Issues)](https://github.com/alanmugiwara)
-[![repo size](https://img.shields.io/github/repo-size/alanmugiwara/pypdfsawtext?color=8A2BE2&label=Repo%20Size)](https://github.com/alanmugiwara)
-[![files counter](https://img.shields.io/github/directory-file-count/alanmugiwara/pypdfsawtext?color=8A2BE2&label=Files%20Counter)](https://github.com/alanmugiwara)
-[![Latest Tag](https://img.shields.io/github/v/tag/alanmugiwara/pypdfsawtext?color=8A2BE2&label=Last%20Tag)](https://github.com/alanmugiwara/pypdfsawtext/releases)
-[![downloads counter](https://img.shields.io/github/downloads/alanmugiwara/pypdfsawtext/total?color=8A2BE2&label=Downloads)](https://github.com/alanmugiwara)
-[![Maintainability](https://qlty.sh/badges/f983cb35-d208-4d2f-8872-03fb3e1205de/maintainability.svg)](https://qlty.sh/gh/alanmugiwara/projects/pypdfsawtext)
-[![Code Coverage](https://qlty.sh/badges/f983cb35-d208-4d2f-8872-03fb3e1205de/test_coverage.svg)](https://qlty.sh/gh/alanmugiwara/projects/pypdfsawtext)
+[![made With](https://img.shields.io/badge/Made%20with-Java%20-8A2BE2)](https://github.com/alanmugiwara)
+[![made With](https://img.shields.io/badge/Made%20with-XML%20-8A2BE2)](https://github.com/alanmugiwara)
+![Created](https://img.shields.io/badge/Created-Ago%2015,%202025-8A2BE2)
+[![Last Commit](https://img.shields.io/github/last-commit/teamgitai/faltei-lascaux?color=8A2BE2&label=Last%20Commit)](https://github.com/alanmugiwara/alanmugiwara)
+[![contributors](https://img.shields.io/github/contributors/teamgitai/faltei-lascaux?color=8A2BE2&label=Contributors)](https://github.com/alanmugiwara)
+[![issues counter](https://img.shields.io/github/issues/teamgitai/faltei-lascaux?color=8A2BE2&label=Issues)](https://github.com/alanmugiwara)
+[![repo size](https://img.shields.io/github/repo-size/teamgitai/faltei-lascaux?color=8A2BE2&label=Repo%20Size)](https://github.com/alanmugiwara)
+[![Latest Tag](https://img.shields.io/github/v/tag/teamgitai/faltei-lascaux?color=8A2BE2&label=Last%20Tag)](https://github.com/alanmugiwara/pypdfsawtext/releases)
+[![downloads counter](https://img.shields.io/github/downloads/teamgitai/faltei-lascaux/total?color=8A2BE2&label=Downloads)](https://github.com/alanmugiwara)
 
-# PyPDF Saw Text
-PyPDF Saw Text é uma aplicação desktop escrita em Python que insere a tecnologia OCR (Optical Character Recognition – Reconhecimento Óptico de Caracteres) em documentos no formato PDF. Até o momento apenas o idioma Português (Brasil) é suportao.
-A ferramenta permite que o usuário selecione uma pasta contendo arquivos PDF e, de forma automatizada, converta todos os documentos encontrados em versões com texto reconhecível. E não há limite predefinido de arquivos: todos os PDFs válidos encontrados na pasta selecionada serão processados sequencialmente.
+# Faltei Lascaux App
+Trata-se de um aplicativo Android desenvolvido para facilitar o controle de frequência universitária, oferecendo uma experiência intuitiva e moderna para estudantes e instituições. A interface foi desenhada para ser simples, responsiva e acessível, com integração a serviços populares e recursos essenciais para o dia a dia na faculdade.
 
-O PyPDF Saw Text é uma ótima maneira de **tornar seus PDFs pesquisáveis sem esforço** — tudo isso sem necessidade de instalar tranqueiras ou digitar comandos.
-## 📥 Download
 
-<a href="https://github.com/alanmugiwara/pypdfsawtext/releases/latest">
-  <img src="https://github.com/gokadzev/Musify/raw/master/repository_files/get-it-on-github.png" alt="Get it on GitHub" width="200"/>
-</a>
+# Funcionalidades (até o momento)
+- Login com Email/RA e Senha: Autenticação segura para acesso ao sistema.
+- Login com Google: Integração rápida usando sua conta Google.
+- Recuperação de Senha: Permite redefinir a senha caso o usuário esqueça.
+- Cadastro de Novo Usuário: Crie sua conta diretamente pelo app.
+- Interface Responsiva: Layout adaptado para diferentes tamanhos de tela.
+- Design Moderno: Cores, fontes e ícones pensados para uma experiência agradável.
 
-- ✅ **Não é necessário ter Python instalado para executar a aplicação. O interpretador está incluso!**
-- ⚠️ **O Tesseract e Ghostscript já estão embutidos na pasta `bin/` da aplicação**.
+# Tecnologias Utilizadas
+- Java: Linguagem principal do projeto.
+- Android Studio Narwhal 3 Feature Drop | 2025.1.3: IDE recomendada para desenvolvimento.
+- Material Design: Componentes visuais modernos e acessíveis.
+- Gradle: Gerenciamento de dependências e build.
+- Google Sign-In: Autenticação via Google.
 
-## Funcionalidades
-- **Definir pasta de origem dos documentos:** Permite escolher a pasta que contém todos os arquivos PDF a serem convertidos, sem limite máximo de documentos;
-- **Definir pasta de saída dos documentos:** Define o local onde os arquivos convertidos serão salvos. Os PDFs manterão os mesmos nomes dos arquivos originais, sem a necessidade de renomeá-los manualmente;
-- **Acesso ao repositório do desenvolvedor:** Um link localizado no rodapé da aplicação direciona diretamente para este repositório;
-- **Reconhecimento Óptico de Caracteres (OCR):**  O texto dos documentos será reconhecido em Português (Brasil) utilizando a tecnologia do Tesseract;
-- **Compressão:** O novo PDF tende a ocupar menos espaço em disco. Já que a ferramenta utiliza o Ghostscript para comprimir imagens e dados internos do arquivo, sem alterar seu conteúdo.
-
-## Tecnologias Utilizadas
-- **Python 3.13.0:** Linguagem de programação utilizada;
-- **CustomTkinter:** Biblioteca que cria a interface gráfica;
-- **ocrmypdf:** Biblioteca que extrai as páginas do PDF como imagens;
-- **Tesseract OCR:** Ferramenta OpenSource que usa OCR para converter as imagens em texto reconhecível;
-- **Ghostscript:** Ferramenta OpenSource para reescrever um novo PDF válido e com tamanho otimizado;
-- **cx_Freeze:** Biblioteca que cria versões executáveis da aplicação para diferentes arquiteturas.
+# Estrutura do Projeto (até o momento)
+- app/src/main/java/ — Código fonte Java.
+- app/src/main/res/layout/ — Arquivos de layout XML.
+- app/src/main/res/drawable/ — Imagens e ícones.
+- app/src/main/AndroidManifest.xml — Manifesto do aplicativo.
+- build.gradle — Configurações de build e dependências.
 
 # Demonstração
-![Demonsraoção](https://github.com/alanmugiwara/alanmugiwara.github.io/blob/main/img/demo-pysawtext.gif?raw=true)
+<img src="https://github.com/teamgitai/faltei-lascaux/blob/main/repo-media/demo.gif?raw=true" height="650"/>
 
 ## Como Reproduzir e executar?
-
-1. **O projeto utiliza o Python 3.13.0:**
-- [Download Python v3.13.0](https://www.python.org/downloads/release/python-3130/)
-
-3. **Clone este repositório usando comando abaixo:**
+1. **Clone este repositório usando comando abaixo:**
 ```bash
-git clone https://github.com/alanmugiwara/pypdfsawtext
+git clone https://github.com/teamgitai/faltei-lascaux
 ```
 
-3.  **Navegue até o diretório /src:**
-```bash
-cd pypdfsawtext/src
-```
+2.  **Abra o projeto no Android Studio. Defina o diretório do projeto como \faltei-lascaux:**
 
-4. **Instale as dependências de Python necessárias para o projeto:**
-```bash
-pip install -r requirements.txt
-```
+3. **Conecte um dispositivo físico ou inicie um emulador.**
 
-5. **Instale as dependências necessárias para a aplicação:**
-
-#### *Windows*
-[Ghostscript/GhostPDL 10.05.1](https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/tag/gs10051)
-[tesseract-ocr/tesseract · v5.5.0.20241111](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.0)
-
-#### *GNU/Linux (Ubuntu/Debian) e derivados*
-```bash
-sudo apt install ghostscript && apt install tesseract-ocr tesseract-ocr-por -y
-```
-
-5. **Execute o Programa:**
-```bash
-python main.py
- ```
+4. **Clique em "Run" para instalar e executar o app.**
 
 ## Como fazer o Build?
 
-1. **O projeto utiliza o Python 3.13.0:**
-- [Download Python v3.13.0](https://www.python.org/downloads/release/python-3130/)
+- O projeto utiliza Gradle, basta abrir no Android Studio e aguardar o sync automático.
+- Para gerar o APK, utilize o menu Build > Build Bundle(s) / APK(s) > Build APK(s).
 
-2. **Clone este repositório usando comando abaixo:**
-```bash
-git clone https://github.com/alanmugiwara/pypdfsawtext
-```
-
-3. **Instale as dependências de Python necessárias para o projeto:**
-```bash
-pip install -r requirements.txt
-```
-
-4. **Instale as dependências necessárias para a aplicação:**
-#### *Para Windows*
-[Ghostscript/GhostPDL 10.05.1](https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/tag/gs10051)
-[tesseract-ocr/tesseract · v5.5.0.20241111](https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.0)
-
-#### *Para GNU/Linux (Ubuntu/Debian) e derivados*
-```bash
-sudo apt install ghostscript && apt install tesseract-ocr tesseract-ocr-por -y
-```
-
-5.  **Navegue até o diretório /src:**
-```bash
-cd pypdfsawtext/src
-```
-
-6.  *No Windows* - **Rode o comando abaixo para buildar:**
-```bash
-python setup_win.py build_exe
-```
-
-## Requisitos para rodar o executável
-#### *Para Windows*
-Windows 10+ 64 bits
-[Visual C++ RedistributableMicrosoft Visual C++ Redistributable 2015–2022 (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+## Requisitos
+- Android Studio Narwhal 3 Feature Drop | 2025.1.3
+- Java 8+
+- Dispositivo Android 7.0 (Nougat) ou superior
