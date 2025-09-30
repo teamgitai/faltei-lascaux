@@ -8,50 +8,136 @@
     tools:context=".MainActivity">
 
     <!-- clock icon -->
+
+    <!-- Title -->
+
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="110dp"
         android:layout_height="110dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="28dp"
         android:background="@android:color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/clock" />
 
-    <!-- Title -->
+    <Button
+        android:id="@+id/buttonEntrar"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#8158FC"
+        android:text="Entrar"
+        app:cornerRadius="12dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintCircleRadius="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inputSenha"
+        app:layout_constraintVertical_bias="0.0" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="Faltei Lascaux"
         android:textColor="#8158FC"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageButton2" />
 
-    <!-- subtitle -->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="Faltei Lascaux"
         android:textColor="#8158FC"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageButton2" />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/inputSenha"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inputEmail">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:textColor="#464646" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textWellcome">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email | Usuário ou RA"
+            android:textColor="#464646" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textForgetpass"
+        android:layout_width="169dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="324dp"
+        android:fontFamily="@font/scada"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:text="Esqueci a senha"
+        android:textAlignment="center"
+        android:textColor="#4285F4"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toStartOf="@+id/textSingup"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
 
     <TextView
         android:id="@+id/textWellcome"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="24dp"
         android:fontFamily="@font/scada"
         android:paddingStart="24dp"
         android:paddingEnd="24dp"
@@ -60,67 +146,60 @@
         android:textColor="#020000"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView" />
 
+    <!-- subtitle -->
+
     <!-- box username-->
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/inputEmail"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="24dp"
-        app:boxStrokeColor="#000000"
-        app:boxBackgroundMode="outline"
+
+    <TextView
+        android:id="@+id/textSingup"
+        android:layout_width="114dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="324dp"
+        android:fontFamily="@font/scada"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:text="Cadastrar"
+        android:textAlignment="center"
+        android:textColor="#4285F4"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textWellcome">
+        app:layout_constraintTop_toBottomOf="@id/textView" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Email | Usuário ou RA" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <!-- box pass -->
-    <com.google.android.material.textfield.TextInputLayout
-
-        android:id="@+id/inputSenha"
+    <Button
+        android:id="@+id/button"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="56dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
-        app:boxStrokeColor="#000000"
-        app:boxBackgroundMode="outline"
+        android:text="Entrar com Google"
+        app:cornerRadius="12dp"
+        android:paddingStart="50dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/inputEmail">
+        app:layout_constraintTop_toBottomOf="@id/textForgetpass" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:inputType="textPassword"
-            android:hint="Senha"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </com.google.android.material.textfield.TextInputLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="35dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/button"
+        app:layout_constraintEnd_toEndOf="@id/button"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="@id/button"
+        app:srcCompat="@drawable/google" />
+
+    <!-- box pass -->
+
 
     <!-- bot. entrar-->
-    <Button
-        android:id="@+id/buttonEntrar"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="32dp"
-        android:backgroundTint="#8158FC"
-        android:text="Entrar"
-        android:textColor="#FFFFFF"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/inputSenha" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
