@@ -1,16 +1,15 @@
-[![made With](https://img.shields.io/badge/Made%20with-Java%20-8A2BE2)](https://github.com/alanmugiwara)
-[![made With](https://img.shields.io/badge/Made%20with-XML%20-8A2BE2)](https://github.com/alanmugiwara)
-![Created](https://img.shields.io/badge/Created-Ago%2015,%202025-8A2BE2)
-[![Last Commit](https://img.shields.io/github/last-commit/teamgitai/faltei-lascaux?color=8A2BE2&label=Last%20Commit)](https://github.com/alanmugiwara/alanmugiwara)
-[![contributors](https://img.shields.io/github/contributors/teamgitai/faltei-lascaux?color=8A2BE2&label=Contributors)](https://github.com/alanmugiwara)
-[![issues counter](https://img.shields.io/github/issues/teamgitai/faltei-lascaux?color=8A2BE2&label=Issues)](https://github.com/alanmugiwara)
-[![repo size](https://img.shields.io/github/repo-size/teamgitai/faltei-lascaux?color=8A2BE2&label=Repo%20Size)](https://github.com/alanmugiwara)
-[![Latest Tag](https://img.shields.io/github/v/tag/teamgitai/faltei-lascaux?color=8A2BE2&label=Last%20Tag)](https://github.com/alanmugiwara/pypdfsawtext/releases)
-[![downloads counter](https://img.shields.io/github/downloads/teamgitai/faltei-lascaux/total?color=8A2BE2&label=Downloads)](https://github.com/alanmugiwara)
+[![made With](https://img.shields.io/badge/Made%20with-Java%20-8A2BE2)](https://github.com/teamgitai/faltei-lascaux)
+[![made With](https://img.shields.io/badge/Made%20with-XML%20-8A2BE2)](https://github.com/teamgitai/faltei-lascaux)
+[![Created](https://img.shields.io/badge/Created-Ago%2015,%202025-8A2BE2)](https://github.com/teamgitai/faltei-lascaux)
+[![Last Commit](https://img.shields.io/github/last-commit/teamgitai/faltei-lascaux?color=8A2BE2&label=Last%20Commit)](https://github.com/teamgitai/faltei-lascaux)
+[![contributors](https://img.shields.io/github/contributors/teamgitai/faltei-lascaux?color=8A2BE2&label=Contributors)](https://github.com/teamgitai/faltei-lascaux)
+[![issues counter](https://img.shields.io/github/issues/teamgitai/faltei-lascaux?color=8A2BE2&label=Issues)](https://github.com/teamgitai/faltei-lascaux)
+[![repo size](https://img.shields.io/github/repo-size/teamgitai/faltei-lascaux?color=8A2BE2&label=Repo%20Size)](https://github.com/teamgitai/faltei-lascaux)
+[![Latest Tag](https://img.shields.io/github/v/tag/teamgitai/faltei-lascaux?color=8A2BE2&label=Last%20Tag)](https://github.com/teamgitai/faltei-lascaux/releases)
+[![downloads counter](https://img.shields.io/github/downloads/teamgitai/faltei-lascaux/total?color=8A2BE2&label=Downloads)](https://github.com/teamgitai/faltei-lascaux)
 
 # Faltei Lascaux App
 Trata-se de um aplicativo Android desenvolvido para facilitar o controle de frequência universitária, oferecendo uma experiência intuitiva e moderna para estudantes e instituições. A interface foi desenhada para ser simples, responsiva e acessível, com integração a serviços populares e recursos essenciais para o dia a dia na faculdade.
-
 
 # Funcionalidades (até o momento)
 - Login com Email/RA e Senha: Autenticação segura para acesso ao sistema.
@@ -44,13 +43,10 @@ git clone https://github.com/teamgitai/faltei-lascaux
 ```
 
 2.  **Abra o projeto no Android Studio. Defina o diretório do projeto como \faltei-lascaux:**
-
 3. **Conecte um dispositivo físico ou inicie um emulador.**
-
 4. **Clique em "Run" para instalar e executar o app.**
 
 ## Como fazer o Build?
-
 - O projeto utiliza Gradle, basta abrir no Android Studio e aguardar o sync automático.
 - Para gerar o APK, utilize o menu Build > Build Bundle(s) / APK(s) > Build APK(s).
 
